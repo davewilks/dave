@@ -46,6 +46,7 @@ GET surfreport/{beachId}
 *Include with the endpoint*
 #Parameters
 *Parameters refer to the various ways the endpoint can be configured to influence the response. Many times parameters are out in a simple table like this:*
+
 | Parameter | Required |Data Type | Example |
 | --------- | -------- | --------- | ------- |
 | Format | Optional | string | json |
