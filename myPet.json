@@ -1,0 +1,18 @@
+{
+  "id": 987654,
+  "category": {
+    "id": 123,
+    "name": "test"
+  },
+  "name": "growler",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
