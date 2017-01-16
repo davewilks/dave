@@ -16,9 +16,9 @@
 -Overall recommendation
 -Broken down by hour*
 
-Returns information about surfing conditions at a specific beach ID, including the surf height, water temperature, wind, and tide. Also provides an overall recommendation about whether to go surfing.
+**Returns information about surfing conditions at a specific beach ID, including the surf height, water temperature, wind, and tide. Also provides an overall recommendation about whether to go surfing.**
 
-{beachId} refers to the ID for the beach you want to look up. All Beach ID codes are available from our site.
+**{beachId} refers to the ID for the beach you want to look up. All Beach ID codes are available from our site.**
 #Endpoint
 *Endpoints can be called:
 -Requests
@@ -30,26 +30,26 @@ Returns information about surfing conditions at a specific beach ID, including t
 
 *When you describe the endpoint, it’s common to list the end path only (hence the nickname “endpoint”), e.g., just /surfreport/{beachId}.
 
-You don’t have to list the full URL every time (which would be https://simple-weather.p.mashape.com/surfreport{beachId}. Doing so distracts the user from focusing on the path that matters.
+*You don’t have to list the full URL every time (which would be https://simple-weather.p.mashape.com/surfreport{beachId}. Doing so distracts the user from focusing on the path that matters.*
 
-In your user guide, explain the full code path in an introductory section.*
+*In your user guide, explain the full code path in an introductory section.*
 
 *If you have path parameters in your endpoint, represent them through curly braces. For example, here’s an example from Mailchimp’s API:
 
 /campaigns/**{campaign_id}**/actions/send
 
-Or use a completely different color, like red*
+*Or use a completely different color, like red*
 
 GET surfreport/{beachId}
 
 #Methods
 *Include with the endpoint*
 #Parameters
-*Parameters refer to the various ways the endpoint can be configured to influence the response. Many times parameters are out in a simple table like this:
-|Parameter|Required|Data Type|Example|
-|---------|--------|---------|-------|
-|Format|Optional|string|json|
-*
+*Parameters refer to the various ways the endpoint can be configured to influence the response. Many times parameters are out in a simple table like this:*
+| Parameter | Required |Data Type | Example |
+| --------- | -------- | --------- | ------- |
+| Format | Optional | string | json |
+
 #Request submission example
 #Request response example
 #Status and error codes
