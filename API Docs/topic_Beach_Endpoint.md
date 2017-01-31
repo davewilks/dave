@@ -51,6 +51,17 @@ GET surfreport/{beachId}
 | --------- | -------- | --------- | ------- |
 | Format | Optional | string | json |
 
+*4 kinds of parameters*
+*-Path parameters - in endpoint, before query string (?)
+-Query string parameters, in endpoint after query string
+-Request body - In body, usually JSON
+-Header parameters - in header, usually related to authorization*
+
+*Parameters should list allowed values*
+
+*Consider color-coding parameters*
+http://domain.com:port//service/myendpoint/user/<span style="color:red">{user}</span>/bicycles/<span style="color:red">{bicycles}</span>/
+
 #Request submission example
 #Request response example
 #Status and error codes
