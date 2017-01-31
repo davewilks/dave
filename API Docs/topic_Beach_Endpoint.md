@@ -60,7 +60,11 @@ GET surfreport/{beachId}
 *Parameters should list allowed values*
 
 *Consider color-coding parameters*
-http://domain.com:port//service/myendpoint/user/<span style="color:red">{user}</span>/bicycles/<span style="color:red">{bicycles}</span>/
+| Parameter | Required |Description | Type |
+| --------- | -------- | --------- | ------- |
+| days | Optional | The number of days to return surf information. The maximum is 7 and the default is 3. | integer |
+| units | Optional | For feet choose imperial and for meters choose metric | string |
+| days | Optional | The time of the day corresponding to time zone of the beach you're inquiring about | integer. Unix format (ms since 1970) in UTC |
 
 #Request submission example
 #Request response example
